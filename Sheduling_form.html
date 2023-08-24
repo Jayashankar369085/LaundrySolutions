@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Laundry Solution Schedule Page</title>
+  <!-- Add Bootstrap CSS link -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="styles.css"> <!-- Link to your external CSS file -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js" defer></script>
+<script>
+const button = document.querySelector('.custom-button');
+
+button.addEventListener('click', () => {
+    button.classList.add('clicked');
+    button.disabled = true;
+});
+</script>
+
+
+
+ <style>
+    body {
+      background-color: black;
+      color: white;
+    }
+
+    
+    
+
+    .form-group label {
+      font-weight: bold;
+    }
+	
+	.container{
+	  margin-top: 100px;
+      border: 2px solid #ccc;
+      border-radius: 20px;
+      padding: 20px;
+	  background-color:black}
+	  
+	   /* Updated styles for input boxes */
+    .form-control {
+      background-color:#444; /* Grey background color */
+      border-color: blue; /* Blue border color */
+      color: black; /* Text color */
+    }
+
+    .form-control:focus {
+      background-color: #eee; /* Light grey background color when focused */
+    }
+	
+	#btn:hover{
+	background-color:lime;
+	}
+  
+  
+  /* Styles for primary button */
+.primary-btn {
+  background-color: #337ab7 !important;
+  color: white !important;
+  padding: 20px 50px !important;
+  text-decoration: none !important;
+  border-radius: 50px !important;
+   display: inline-block !important;
+}
+
+.primary-btn:hover {
+  background-color:skyblue !important;}
+  
+  #w{
+  color:black;}
+  
+  .form-control{
+  height:46px;}
+  
+  a{
+  color:white;
+  text-decoration:none;}
+  
+ .panel{
+ width:400px;
+ background-color:white;
+ height:420px;}
+ 
+ .payment-option {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.payment-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #337ab7;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.payment-box input[type="radio"] {
+    margin-right: 5px;
+}
+
+
+
+.payment-box:hover {
+    background-color: lime;
+}
+
+.payment-boxred:hover {
+    background-color: red;
+}
+#disabled:hover{
+	background-color:red;}
+	#active:hover{
+	background-color:lime;}
+
+	
+	
+	
+	
+	.custom-button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.custom-button.clicked {
+    background-color: lime;
+}
+
+
+
+
+  </style>
+</head>
+<body style="background-color:#111"><br>
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-12">
+        <form>
+		<div class="row">
+
+<div class="col-lg-2">
+<ul class="pager">
+  <li class="previous"><a href="file:///G:/Web%20development%20Folder%20(ATAS)/PROJECT/Project%20Laundry%20Solutions%20Home%20page%202.html" class="primary-btn"> <B style="font-family: Times New Roman;font-size:16.1px;"><span class="glyphicon glyphicon-circle-arrow-left"></span> Back </B></a></li>
+  </ul></div>
+  <div class="col-lg-10">
+          <h3 class="text-center mb-4" style="font-family: Nunito;font-size:54px; ">Schedule your Pickup</h3></div></div>
+		 
+		  <hr style="background-color:white">
+		  <br>
+          <div class="form-group">
+            <label for="first-name">Your Name</label>
+            <input type="text" class="form-control" id="first-name" placeholder="First Name" required>
+          </div>
+          <div class="form-group">
+            <label for="mobile-number">Mobile Number</label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text">Ind +91</span>
+              </div>
+              <input type="tel" class="form-control" id="mobile-number" placeholder="Mobile No" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email.Id</label>
+            <input type="email" class="form-control" id="email" placeholder="@mail.com" required>
+          </div>
+          <div class="form-group">
+            <label>Departure Address</label>
+            <input type="text" class="form-control" placeholder="House No" required>
+            <input type="text" class="form-control mt-2" placeholder="Street/Locality" required>
+            <div class="row">
+              <div class="col-md-6">
+                <input type="text" class="form-control mt-2" placeholder="City/Village" required>
+              </div>
+              <div class="col-md-6">
+                <input type="Number" class="form-control mt-2" placeholder="Pincode" required>
+              </div>
+            </div>
+			<br>
+			<div class="form-group">
+			<label>State</label>
+              <select class="form-control" id="state" required>
+                <option value="" selected disabled>Select your state</option>
+                <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                <option value="Assam">Assam</option>
+                <option value="Bihar">Bihar</option>
+                <option value="Chandigarh">Chandigarh</option>
+                <option value="Chhattisgarh">Chhattisgarh</option>
+                <option value="Dadra and Nagar Haveli and Daman and Diu">Dadra and Nagar Haveli and Daman and Diu</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Goa">Goa</option>
+                <option value="Gujarat">Gujarat</option>
+                <option value="Haryana">Haryana</option>
+                <option value="Himachal Pradesh">Himachal Pradesh</option>
+                <option value="Jharkhand">Jharkhand</option>
+                <option value="Karnataka">Karnataka</option>
+                <option value="Kerala">Kerala</option>
+                <option value="Lakshadweep">Lakshadweep</option>
+                <option value="Madhya Pradesh">Madhya Pradesh</option>
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Manipur">Manipur</option>
+                <option value="Meghalaya">Meghalaya</option>
+                <option value="Mizoram">Mizoram</option>
+                <option value="Nagaland">Nagaland</option>
+                <option value="Odisha">Odisha</option>
+                <option value="Puducherry">Puducherry</option>
+                <option value="Punjab">Punjab</option>
+                <option value="Rajasthan">Rajasthan</option>
+                <option value="Sikkim">Sikkim</option>
+                <option value="Tamil Nadu">Tamil Nadu</option>
+                <option value="Telangana">Telangana</option>
+                <option value="Tripura">Tripura</option>
+                <option value="Uttar Pradesh">Uttar Pradesh</option>
+                <option value="Uttarakhand">Uttarakhand</option>
+                <option value="West Bengal">West Bengal</option>
+              </select>
+           </div>
+          </div>
+          <div class="form-group">
+            <small class="form-text">By enrolling your mobile phone number, you consent to receive automated security notifications via text message from Laundry Solution. Message and data rates may apply.</small>
+          </div>
+          
+		  <div class="form-group">
+		  <label> Type of service </label>
+		   <select class="form-control" id="servicetype" required>
+                <option value="" selected disabled>Select your Requirement</option>
+                <option value="Washing and ironing">Washing and ironing</option>
+				 <option value="Steam press ">Steam press</option>
+				  <option value="Intense washing">Intense washing</option>
+				   <option value="Dry cleaning">Dry cleaning</option>
+				   <option value="Hygenic wash">Hygenic wash</option>
+				</select></div>
+				
+			<div class="form-group">
+			<label> Date of pickup </label>
+			<input type="date" class="form-control" value="" required>
+			<small> Delivery will be done within 24-48 hours after the pickup </small>
+			</div>
+			
+			<label>To know our pricing, click below:</labeL><br>
+			<a href="https://i.ibb.co/XsFfLz3/Screenshot-2023-08-21-09-37-15-47-40deb401b9ffe8e1df2f1cc5ba480b12.jpg" download> <button class="btn btn-primary btn-block" type="button" style="width:250px;"><Span class="fa fa-eye"> </span> Download Pricing </button></a>
+			<br>
+			<br>
+			<div class="form-group">
+    <label><b style="font-size:19px;">Payment method</b></label>
+<br><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+   
+   <label class="custom-button">
+        <input type="radio" class="radio-input" name="buttonGroup">
+        <span class="button-text" disabled>Cash on delivery</span>
+    </label>
+	&nbsp&nbsp&nbsp&nbsp&nbsp
+	 <label class="custom-button">
+        <input type="radio" class="radio-input" name="buttonGroup">
+        <span class="button-text">Debit/Credit Card </span>
+    </label>
+	&nbsp&nbsp&nbsp&nbsp&nbsp
+	 <label class="custom-button">
+        <input type="radio" class="radio-input" name="buttonGroup">
+        <span class="button-text">UPI Payment</span>
+    </label>
+	&nbsp&nbsp&nbsp&nbsp&nbsp
+ <label class="custom-button">
+        <input type="radio" class="radio-input" name="buttonGroup">
+        <span class="button-text">Net banking</span>
+    </label>
+	&nbsp&nbsp&nbsp&nbsp&nbsp
+  </div>
+
+
+			
+			
+		 <hr style="background-color:white">
+		  <div class="text-center"><a  Href="file:///G:/Web%20development%20Folder%20(ATAS)/PROJECT/Alert%20message.html"><A HREF="Alert_for_Sheduling_a_pickup.html"><button  class="btn btn-primary btn-block" style="height:50px;" type="button"id="btn">SUBMIT</button></a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+<br><br>
+  <!-- Add Bootstrap JS and jQuery links -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+  
+  
+</body>
+</html>

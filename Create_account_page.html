@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Account</title>
+    <!-- Add Bootstrap CSS link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	</head>
+	
+	
+	<!---Vaidation--->
+	
+	
+	
+	
+	<!-- Custom CSS for black and blue theme -->
+    <style>
+	
+	
+	
+	
+	
+	
+	.modal-content {
+   max-width: 100vh;
+   max-height: 95vh; /* Set the maximum height of the modal content */
+    overflow-y: auto; /* Add vertical scroll if content overflows */
+}
+        body {
+            background-color: #222;
+            color: #fff;
+		 /* Text color for the well */
+  font-family: Arial, sans-serif;
+  
+        }
+        .container {
+            background-color:black;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        label {
+            color: #888; /* Blue label color */
+        }
+        .form-control {
+            background-color: #444;
+            border-color: #00f;
+            color: #fff;
+        }
+        .form-check-label {
+            color: #fff;
+        }
+        .btn-primary {
+            
+            border-color: #00f;
+        }
+        .btn-primary:hover {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+		
+		.dark-well {
+  background-color: black; /* Well background color */
+  height:100px;
+  border-radius: 8px;
+
+}
+
+.dark-well{
+  font-size: 14px;
+}
+
+button{
+type:button;}
+    </style>
+</head>
+<body><div class="container-fluid no-padding">
+<br>
+<blockquote class="blockquote" STYLE="background-color:#337ab7; ">
+<center><p style="font-size:36px;"><H1>Sign Up for free</h1></p></center>
+
+</blockquote>
+<hr style="padding-bottom:2px;background-color:#999;">
+</div>
+
+<br>
+    <div class="container mt-4">
+        <h2>Create Account</h2>
+        <form>
+            <div class="form-group row">
+                <div class="col-md-6">
+                    <label for="firstName">First Name</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="Enter first name" style="height:45px;"required>
+                </div>
+                <div class="col-md-6">
+                    <label for="surname">Surname</label>
+                    <input type="text" style="height:45px;" class="form-control" id="surname" placeholder="Enter surname" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" style="height:45px;" class="form-control" id="email" placeholder="Enter email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password"  style="height:45px;"class="form-control" id="password" placeholder="Enter password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" style="height:45px;" class="form-control" id="confirmPassword" placeholder="Confirm password" required>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="terms" required>
+                <label class="form-check-label" for="terms">&nbsp&nbsp&nbsp&nbsp&nbsp&nbspI accept the <a href="#" data-toggle="modal" data-target="#termsModal">terms and conditions</a>
+            </div>
+			
+			
+			<div class="modal fade" id="termsModal" tabindex="-1" role="dialog" aria-labelledby="termsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document" style="color:black;">
+        <div class="modal-content">
+            <div class="modal-header">
+               <h4 class="modal-title" id="termsModalLabel"><center> Terms and Conditions</center> </h4> 
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Terms and Conditions for Laundry Solutions<br><br>
+1. Introduction<br>
+   These terms and conditions outline the rules and regulations for the use of the Laundry Solutions website, located at www.laundrysolutions.com.<br><br>
+2. Acceptance of Terms<br>
+   By accessing and using this website, you accept and agree to be bound by these terms and conditions.<br><br>
+3. Use of the Website<br>
+   You must use the website only for lawful purposes and not violate any applicable laws or regulations.<br><br>
+4. Privacy Policy<br>
+   We value your privacy. Please refer to our Privacy Policy to understand how we collect, use, and protect your personal information.<br><br>
+5. Content Ownership<br>
+   All content on this website, including text, images, logos, and design, is owned by Laundry Solutions and is protected by copyright laws.<br><br>
+6. Registration and Accounts<br>
+   You may need to create an account to access certain features of the website. You are responsible for maintaining the confidentiality of your account information.<br><br>
+7. Accuracy of Information<br>
+   While we strive to provide accurate and up-to-date information, we do not warrant the accuracy, completeness, or reliability of the content on this website.<br><br>
+8. Product Descriptions<br>
+   Product descriptions on the website are for informational purposes. Actual products may vary from the images and descriptions provided.<br><br>
+9. Pricing and Payments<br>
+   Prices listed on the website are subject to change without notice. We reserve the right to modify pricing and availability at any time.<br><br>
+10. Shipping and Delivery<br>
+    Details regarding shipping and delivery can be found on the Shipping page of our website.<br><br>
+11. Returns and Refunds<br>
+    Our Returns and Refunds policy outlines the process for returning items and seeking refunds. Please refer to that policy for more information.<br><br>
+12. User-Generated Content<br>
+    Any content you submit to the website, including reviews and comments, must not violate any laws or infringe on the rights of others.<br><br>
+13. Prohibited Activities<br>
+    You agree not to engage in any activities that could harm or disrupt the website, its users, or our business operations.<br><br>
+14. Modifications to Terms<br>
+    We may update or modify these terms and conditions at any time without notice. It's your responsibility to review them periodically.<br><br>
+15. Termination<br>
+    We reserve the right to terminate your access to the website for violating these terms or engaging in prohibited activities.<br><br>
+16. Limitation of Liability<br>
+    Laundry Solutions shall not be liable for any direct, indirect, incidental, consequential, or special damages arising from the use of the website.<br><br>
+17. Indemnification<br>
+    You agree to indemnify and hold Laundry Solutions harmless from any claims, losses, damages, liabilities, and expenses arising from your use of the website.<br><br>
+18. Governing Law<br>
+    These terms and conditions are governed by the laws of [Your Jurisdiction], and any disputes shall be subject to the exclusive jurisdiction of the courts in [Your Jurisdiction].<br><br>
+19. Contact Information<br>
+    For any inquiries or concerns related to these terms and conditions, please contact us at [contact@email.com].<br><br>
+20. Entire Agreement<br>
+    These terms and conditions constitute the entire agreement between you and Laundry Solutions regarding your use of the website.<br><br>
+21. Waiver<br>
+    Failure to enforce any provision of these terms shall not be deemed a waiver of any subsequent breach or default.<br><br>
+22. Severability<br>
+    If any provision of these terms is deemed invalid or unenforceable, the remaining provisions shall remain in full force and effect.<br><br>
+23. Language<br>
+    These terms and conditions may be presented in multiple languages for user convenience. In case of any discrepancies, the English version shall prevail.<br><br>
+24. Updates<br>
+    These terms were last updated on [Date]. We reserve the right to update or modify these terms as needed.<br><br>
+25. Thank you for choosing Laundry Solutions for your laundry needs!<br><br>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+			
+			
+			
+			
+           <a href="AlertforCreateaccount.html"> <button  type="button"  style="height:45px;" class="btn btn-primary btn-block mt-3">Create Account</button></a>
+        </form>
+    </div>
+	<br>
+	<div class="container-fluid" style="background-color:black">
+	<div class="dark-well">
+	<center>
+	<br>
+   <p> © 2023 Laundry Solutions. All rights reserved</p>
+   </center>
+  </div>
+</div>
+    <!-- Add Bootstrap JS scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

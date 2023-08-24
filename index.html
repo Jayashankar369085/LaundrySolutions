@@ -1,0 +1,549 @@
+<!doctypeHTML>
+<html>
+<head> <title> Laundry Solutions limited </title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  
+  
+  <!--javascript code--->
+  
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"></script>
+  
+  
+  
+
+<!--Transition for smooth scroll--->
+<script>
+    function scrollToTop() {
+      window.scrollTo({
+        top:4,
+        behavior: 'smooth'
+      });
+    }
+  </script>
+  <!---Transition for contact us scroll-->
+  <script>
+    function scrollToContact() {
+      window.scrollTo({
+        top:3190,
+        behavior: 'smooth'
+      });
+    }
+  </script>
+  
+  <!---Transition for Schedule us scroll-->
+  <script>
+    function scrollToSchedule() {
+      window.scrollTo({
+        top:2600,
+        behavior: 'smooth'
+      });
+    }
+  </script>
+  
+  <script>
+    function scrollToProcess() {
+      window.scrollTo({
+        top:1930,
+        behavior: 'smooth'
+      });
+    }
+  </script>
+  
+  
+  <script>
+    function scrollToOverview() {
+      window.scrollTo({
+        top:650,
+        behavior: 'smooth'
+      });
+    }
+  </script>
+  
+  
+  
+  <script>
+  // Hide the loader when the content is fully loaded
+  window.addEventListener('load', function() {
+    document.querySelector('.loader-container').style.display = 'none';
+  });
+</script>
+
+  
+  <style>
+  
+   
+  
+  
+  
+  
+  
+  /* Change the color of links on hover */
+
+.panel-body{border-color:white;}
+
+/* Custom CSS to make the button more rounded */
+    .btn-rounded {
+      border-radius: 100px;
+    }
+
+  
+
+    /* Increase the height of the navigation bar */
+    .navbar {
+      height: px; /* Adjust this value as needed */
+    }
+	.no-padding{
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+.panel-body{
+border: 2px solid white;
+  border-radius: 12px;
+  }
+
+  
+  /* Hide the bottom scrollbar */
+body {
+    overflow-x: hidden; /* Hide horizontal scrollbar if present */
+    overflow-y: auto;   /* Show vertical scrollbar if needed */
+}
+
+table{
+
+padding: 10px;
+
+margin: auto;
+
+border-color: black;
+
+}
+
+
+a{
+text-decoration:none;
+color:white;}
+
+a:hover{
+text-decoration:underline;
+color:gold;}
+
+.modal-body {
+    max-height: 500px; /* Adjust the value as needed */
+    overflow-y: auto; /* Enable vertical scrollbar if content exceeds the max height */
+}
+
+header {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .intro {
+            margin: 20px;
+            font-size: 18px;
+        }
+        .intro h2 {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .important {
+            font-weight: bold;
+        }
+
+.icon {
+            color: green;
+            font-size: 24px;
+			
+			
+			/* Styles for the loader container */
+.loader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styles for the custom loader */
+.custom-loader {
+  /* Add styles for your custom loader here */
+}
+
+</style>
+</head>
+<body>
+
+
+  </style> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  </head>
+  <body STYLE="background-color:#111" class="no-paddding">
+  
+  
+  
+  <div class="loader-container">
+    <div class="custom-loader">
+      <img src="https://www.digitaldesignjournal.com/wp-content/uploads/2018/08/css-loaders-158.gif" height="100%" width="100%">
+    </div>
+  </div>
+  
+  
+  
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="containeri-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand btn-dark" type="button" href="#myPage" onclick="scrollToTop()"style="background-color:Black"><P style="color:white"><span class="glyphicon glyphicon-home"></span>    &nbsp&nbspHOME PAGE</P></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+        
+        <li><a href="#overview" onclick="scrollToOverview()"><span class="fas fa-building"></span>   OVERVIEW</a></li>
+		
+		<li><a href="#process" onclick="scrollToProcess()"><SPAN CLASS="fas fa-soap"></SPAN>   PROCESS</a></li>
+		<li><a href="#schedule" onclick="scrollToSchedule()"><span class="fas fa-clock"></span>   SCHEDULE PICKUP</a></li>
+        <li><a href="#contact" onclick="scrollToContact()"><span class="glyphicon glyphicon-phone-alt"></span>   CONTACT</a></li>
+		<li><a href="Login_for_users_page.html"><span class="	glyphicon glyphicon-user"></span>   LOGIN</a></li>
+		<li><a href="Rating.html"><span class="glyphicon glyphicon-comment"></span> FEEDBACK</a></li>
+		<li><a href="">   </a></li>
+		
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <div class="container-fluid no-padding">
+  <br>
+  <div class="jumbotron text-center" style="background-image: url(https://c4.wallpaperflare.com/wallpaper/88/815/645/surface-bubbles-dark-background-wallpaper-preview.jpg);  background-size: 100%;">
+  <img src="https://i.ibb.co/K6GJp1N/Laundry-solutions-logo.png" HEIGHT="200PX" WIDTH="200PX"class="img-circle">
+   <h1 style="font-family: wide latin; color:white; font-size:58px"><b> LAUNDRY SOLUTIONS </b></h1>  
+  
+  <p><h2 style="font-size:16px; color:white;"><i>We PROVIDE BEST LAUNDRY SERVICES</i></h2></p>  
+  <br>
+  ______________________________________________________________________________________________________
+  
+  <br><br>
+  
+  <form><div class="row">
+  <div class="col-lg-4"></div>
+  <div class="col-lg-4">
+  
+    <div class="input-group">
+      <input type="email" class="form-control"  placeholder="Email Address" style="height:40px;">
+      <div class="input-group-btn">
+        <button type="button submit" class="btn btn-danger" style="height:40px;">Subscribe</button>
+      </div>
+    </div>
+	</div>
+  
+  <div class="col-lg-4"></div>
+  </div>
+  </form>
+  <h3 style="color:white;"><i>Subscribe to get daily updates!</i></h3>
+</div>
+</div>
+<br>
+
+
+
+<div class="panel no-padding"STYLE="background-color:#111;color:white">
+<div class="panel-body no-padding" STYLE="background-color:#337ab7">
+<center>
+<br>
+<p style="font-family: 'Georgia', serif; color:black; font-size:48px;"> OVERVIEW </p>
+</center></div>
+<br>
+<header>
+        <h1 style="text-decoration:underline;font-family: Arial,sans-serif;">Welcome to Laundry Solutions</h1>
+    </header>
+	<br>
+    <section class="intro" style="font-size:21px">
+        <h2>Experience the Best Laundry Service in Bengaluru</h2><br>
+        <p>
+            Welcome to <B>Laundry Solutions </b> – Your Premier Laundry Service Provider in Bengaluru! We take the hassle out of laundry so you can focus on the things that matter most to you. With a commitment to excellence and a passion for impeccable care, we are proud to offer the <span class="important">best laundry services</span> in the vibrant city of Bengaluru.
+        </p>
+        <p>
+            Our dedicated team of professionals combines <span class="important">state-of-the-art technology</span> with a personal touch, ensuring that your clothes receive the utmost attention and care they deserve. From washing and folding to delicate fabric treatments, we handle every garment with precision and diligence.
+        </p>
+        <p>
+            As a locally owned and environmentally conscious business, we take pride in our <span class="important">sustainable practices</span>, utilizing energy-efficient machines and eco-friendly detergents. Whether you're a busy professional, a parent on-the-go, or anyone in need of a reliable laundry solution, we've got you covered.
+        </p>
+        <p>
+            Discover the <span class="important">convenience, quality, and comfort</span> that come with choosing <b>Laundry Solutions</b>. Experience laundry like never before – where innovation meets impeccable results. Explore our range of services, enjoy hassle-free scheduling, and join our growing community of satisfied customers in Bengaluru today.
+        </p>
+    </section>
+	<br>
+	
+	<div class="row">
+	<div class="col-lg-3"> </div>
+	<div class="col-lg-8" style="font-size:20px;">
+<div class="icon">
+        <b STYLE="color:white;font-size:29px">Pickup and delivery of laundry&nbsp&nbsp</b><i class="fas fa-check-circle"></i><br><br>
+		 <b STYLE="color:white;font-size:29px">Hygeinic and anti-bacterial laundry&nbsp&nbsp</b><i class="fas fa-check-circle"></i><br><br>
+		  <b STYLE="color:white;font-size:29px">No damages of Garmets&nbsp&nbsp</b><i class="fas fa-check-circle"></i><br><br>
+		   <b STYLE="color:white;font-size:29px">Responsive Customer care service</b><i class="fas fa-check-circle"></i><br><br>
+		   <b STYLE="color:white;font-size:29px">300K+ Satisfied customers&nbsp&nbsp</b><i class="fas fa-check-circle"></i><br><br>
+    </div>
+ </div>
+ 
+</div>
+<BR>
+
+
+
+
+<div class="panel no-padding">
+<div class="panel-body no-padding" STYLE="background-color:#337ab7">
+<center>
+<br>
+<p style="font-family: 'Georgia', serif; color:black; font-size:48px;"> PROCESS </p>
+</center></div></div>
+<DIV CLASS="container-fluid no-padding">
+<div class="carousel slide" id="myCarousel" data-ride="carousel">
+<!-- indicators -->
+<br><br>
+<ul class="carousel-indicators no-padding">
+<li data-target="#myCarousel" data-slide-to="0" class="active"> </li>
+<li data-target="#myCarousel" data-slide-to="1"> </li>
+<li data-target="#myCarousel" data-slide-to="2"> </li>
+<li data-target="#myCarousel" data-slide-to="3"> </li>
+<li data-target="#myCarousel" data-slide-to="4"> </li>
+
+</ul>
+
+ <!-- Wrapper for slides -->
+ <div class="carousel-inner no-padding">
+ 
+ <div class="item active">
+          <div class="row">
+            <div class="col-sm-6">
+              <img src="https://www.thelaundrybasket.in/assets/images/Laundry_basket_01-min.gif">
+            </div>
+            <div class="col-sm-5">
+              <h2 style="font-family: 'Georgia', serif; color:white;"><br><br><br><br><br><br>1]&nbsp&nbspClothes that need to be washed are picked up from customers through the delivery guy.</h2>
+            </div>
+			<div class="col-sm-1"> </div>
+          </div></div>
+ <div class="item"><div class="row">
+            <div class="col-sm-6">
+              <img src="https://www.thelaundrybasket.in/assets/images/Laundry_basket_03-min.gif">
+            </div>
+            <div class="col-sm-5">
+              <h2 style="font-family: 'Georgia', serif; color:white;"><br><br><br><br><br><br>2]&nbsp&nbspClothes are overlooked for any stains and required chemicals are applied for best wash.</h2>
+            </div>
+			<div class="col-sm-1"> </div>
+          </div></div>
+		  
+		  
+ <div class="item"><div class="row">
+            <div class="col-sm-6">
+              <img src="https://www.thelaundrybasket.in/assets/images/Laundry_basket_02-min.gif">
+            </div>
+            <div class="col-sm-5">
+              <h2 style="font-family: 'Georgia', serif; color:white;"><br><br><br><br><br><br>3]&nbsp&nbspThe cloths are washed and then dried by machinery appliances in certain temperature for certain amount of time.</h2>
+            </div>
+			<div class="col-sm-1"> </div>
+          </div></div>
+		  
+		  
+ <div class="item"><div class="row">
+            <div class="col-sm-6">
+              <img src="https://www.thelaundrybasket.in/assets/images/Laundry_basket_04-min.gif">
+            </div>
+            <div class="col-sm-5">
+              <h2 style="font-family: 'Georgia', serif; color:white;"><br><br><br><br><br><br>4]&nbsp&nbspAfter the cloths are dried, they are steam ironed.</h2>
+            </div>
+			<div class="col-sm-1"> </div>
+          </div></div>
+		  
+		  
+ 
+		  
+		  
+		  <div class="item"><div class="row">
+            <div class="col-sm-6">
+              <img src="https://www.thelaundrybasket.in/assets/images/Laundry_basket_06-min.gif">
+            </div>
+            <div class="col-sm-5">
+              <h2 style="font-family: 'Georgia', serif; color:white;"><br><br><br><br><br><br>5]&nbsp&nbspThe washed and ironed cloths are checked by an expert if the clothes are good to go.</h2>
+            </div>
+			<div class="col-sm-1"> </div>
+          </div></div>
+
+ </div>
+
+<!--Left and right button-->
+<a class="left carousel-control"  href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left">  </a>
+<a class="right carousel-control"  href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"> </a>
+
+
+</div>
+
+
+</DIV>
+
+<br><br>
+<br>
+<hr style="background-color:white;padding:1px;">
+<div class="container-fluid no-padding">
+<div class="panel-body no-padding" STYLE="background-color:#337ab7">
+<center>
+<br>
+<p style="font-family: 'Georgia', serif; color:black; font-size:48px;"> SCHEDULE A PICKUP </p>
+</center></div></div>
+<div class="jumbotron" style="background-color:#111;color:white;height:360px;">
+<br>
+<br>
+<center>
+<h2> Say <I>Goodbye</I> to laundry stress! Take the initial step toward an experience filled with tranquility and ease.</h2><br></center><br>
+<center> Click below to schedule your pickup and get delivered within 24 hours!<BR><br></center>
+<div class="row">
+<div class="col-lg-3"> </div>
+<div class="col-lg-6"> <a href="Sheduling_form.html"><button style="height:60px;"class="btn btn-primary btn-block btn-rounded" type="button"><b STYLE="FONT-SIZE:20PX;"> SCHEDULE A PICKUP</b></button></a><BR><CENTER>Click ere to check our: <a href=""  data-toggle="modal" data-target="#myModal">Guidelines for Scheduling a Pickup</a></CENTER></div>
+<!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content" style="color:black;">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title"><b><center>Guidelines for Scheduling a Pickup - Laundry Solutions</center></b></h4>
+        </div>
+        <div class="modal-body">
+<p>1]<b>Service Availability</b>: The "Schedule a Pickup" service is available on specified days and times, subject to change without prior notice.
+<br>
+<br>
+2]<b>Accurate Information</b>: You agree to provide accurate and complete details when scheduling a pickup, including your contact information and pickup location.
+<br>
+<br>
+3]<b>Preparation of Items</b>: You are responsible for ensuring that all items to be picked up are properly sorted, labeled, and placed in a designated pickup area.
+<br>
+<br>
+4]<b>Leftovers in Pockets</b>: Laundry Solutions is not responsible for any items left in pockets, including money, keys, or other valuables. Please thoroughly check and empty pockets before pickup.
+<br>
+<br>
+5]<b>Timely Availability</b>: You or a representative must be present at the pickup location during the scheduled time. Failure to be available may result in rescheduling or cancellation.
+<br>
+<br>
+6]<b>Cancellations and Changes</b>: If you need to cancel or reschedule a pickup, you should notify us at least 24 hours in advance. Late cancellations may incur a fee.
+<br>
+<br>
+7]<b>Special Instructions</b>: Any special laundering instructions, preferences, or considerations should be communicated during the scheduling process.
+<br>
+<br>
+8]<b>Privacy and Data</B>: Personal information provided during scheduling will be used solely for the purpose of providing the pickup service and will be handled in accordance with our privacy policy.
+<br>
+<br>
+9]<b>Third-Party Links</b>: The Site may contain links to third-party websites or resources. We are not responsible for the content, availability, or practices of these external sites.
+<br>
+<br>
+10]<b>Modification of Terms</b>: Laundry Solutions reserves the right to modify or update these Terms and Conditions at any time. Continued use of the Site after changes implies your acceptance of the revised terms.
+<br>
+<br>
+11]<b>Damages and refund</B>: If any damage is observed in the cloth while laundering, company will go through the formalities and refund certain amount of money.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+<div class="col-lg-3"> </div>
+<br>
+<br>
+<br>
+<br>
+
+</div>
+</div>
+
+
+<br>
+<div class="container-fluid no-padding">
+<div class="panel-body no-padding" STYLE="background-color:#337ab7">
+<center>
+
+<p style="font-family: 'Georgia', serif; color:black; font-size:48px;"> CONTACT US </p>
+</center></div></div>
+<br><br>
+
+<p><h2 style="text-decoration:underline;color:white;"> Contact us at:-</h2> </p>
+<br><br>
+
+<div class="row">
+<div class="col-lg-2"></div>
+
+<div class="col-lg-6">
+
+
+<a href=""><img  class="img-circle" src="https://upload.wikimedia.org/wikipedia/commons/e/ee/WWW_icon_-_Digital_Preservation.png" width="50" height="50"></a>&nbsp&nbsp&nbsp&nbsp&nbsp <b style="font-size:28px;color:white;"><a href="www.laundrysolutions.com"> WWW.LAUNDRYSOLUTIONS.COM </a></b>
+<br><br><br>
+<br>
+
+
+
+<a href=""><img class="img-circle" src="https://static.vecteezy.com/system/resources/previews/016/716/465/non_2x/gmail-icon-free-png.png" width="50" height="50"></a>&nbsp&nbsp&nbsp&nbsp&nbsp <b style="font-size:28px;"><a href="www.laundrysolutions.com"> laundry_solutions@gmail.com </a></b>
+<br>
+<br>
+<br>
+<br>
+
+
+<a href=""> <span><img  class="img-circle" src="https://www.edigitalagency.com.au/wp-content/uploads/Facebook-logo-blue-circle-large-transparent-png.png" width="50" height="50"></a>&nbsp&nbsp&nbsp&nbsp&nbsp <b style="font-size:28px;color:white;"><a href="www.laundrysolutions.com"> Laundry_Solutions_lmt</a></b></span>
+<br>
+<br>
+
+
+</div>
+<div class="col-lg-1"></div>
+<div class="col-lg-2"><h4><b style="color:white;">If you want to give feedback,click below.</b></h4><br><a href="Rating.html"> <button class="btn btn-primary btn-block rounded" type="button"><span class="glyphicon glyphicon-comment"> </span> Feedback</button></a><br><br>
+<h4><b style="color:white;">If you want to contact cutomer care,contact on below number.</b></h4><br><span class="glyphicon glyphicon-telephone"> </span><i style="font-size:23px;"><kbd>080-124-5654-329</kbd></i>
+</div>
+<div class="col-lg-1"></div>
+</div>
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="container-fluid" style="background-color:black;height:140px;">
+	<div class="dark-well">
+	<center>
+	<br>
+   <p> © 2023 Laundry Solutions. All rights reserved</p>
+   </center>
+  </div>
+</div>
+
+
+</body>
+</HTML>
