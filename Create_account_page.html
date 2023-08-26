@@ -25,6 +25,23 @@
     <style>
 	
 	
+  /* Styles for the loader container */
+.loader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styles for the custom loader */
+.custom-loader {
+  /* Add styles for your custom loader here */
+}
 	
 	
 	
@@ -81,7 +98,13 @@ button{
 type:button;}
     </style>
 </head>
-<body><div class="container-fluid no-padding">
+<body>
+	<div class="loader-container">
+    <div class="custom-loader">
+      <img src="https://www.digitaldesignjournal.com/wp-content/uploads/2018/08/css-loaders-158.gif" height="100%" width="100%">
+    </div>
+  </div>
+	<div class="container-fluid no-padding">
 <br>
 <blockquote class="blockquote" STYLE="background-color:#337ab7; ">
 <center><p style="font-size:36px;"><H1>Sign Up for free</h1></p></center>
@@ -195,7 +218,7 @@ type:button;}
 			
 			
 			
-           <a href="AlertforCreateaccount.html"> <button  type="submit button"  style="height:45px;" class="btn btn-primary btn-block mt-3">Create Account</button></a>
+           <a href="AlertforCreateaccount.html"> <button  type="submit"  style="height:45px;" class="btn btn-primary btn-block mt-3">Create Account</button></a>
         </form>
     </div>
 	<br>
