@@ -35,11 +35,34 @@ text-decoration:none;}
 
 a:hover{
 color:gold;}
+
+   /* Styles for the loader container */
+.loader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styles for the custom loader */
+.custom-loader {
+  /* Add styles for your custom loader here */
+}
 </style>
 
 
 </head>
 <body>
+  <div class="loader-container">
+    <div class="custom-loader">
+      <img src="https://www.digitaldesignjournal.com/wp-content/uploads/2018/08/css-loaders-158.gif" height="100%" width="100%">
+    </div>
+  </div>
 <div class="alert success">
   <span class="closebtn">&times;</span>  
   <strong>Success!</strong> Your order is successfully submitted.
